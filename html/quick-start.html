@@ -391,7 +391,15 @@
 48
 49
 50
-51</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="kn">from</span> <span class="nn">transformer_rankers.trainers</span> <span class="kn">import</span> <span class="n">transformer_trainer</span>
+51
+52
+53
+54
+55</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">BertTokenizer</span><span class="p">,</span> <span class="n">BertForSequenceClassification</span>
+ <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+ <span class="kn">import</span> <span class="nn">logging</span>
+
+ <span class="kn">from</span> <span class="nn">transformer_rankers.trainers</span> <span class="kn">import</span> <span class="n">transformer_trainer</span>
  <span class="kn">from</span> <span class="nn">transformer_rankers.datasets</span> <span class="kn">import</span> <span class="n">dataset</span><span class="p">,</span> <span class="n">preprocess_crr</span>
  <span class="kn">from</span> <span class="nn">transformer_rankers.negative_samplers</span> <span class="kn">import</span> <span class="n">negative_sampling</span>
  <span class="kn">from</span> <span class="nn">transformer_rankers.eval</span> <span class="kn">import</span> <span class="n">results_analyses_tools</span>
