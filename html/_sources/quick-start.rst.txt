@@ -80,10 +80,10 @@ In the example below we read a custom .csv with the dataset we want to train the
    #Instantiate random negative samplers 
    # (1 for training 9 negative candidates for test)
    ns_train = negative_sampling.\
-      RandomNegativeSampler(list(train["response"].values), 1)
+      RandomNegativeSampler(list(train["Relevant_Document"].values), 1)
    ns_val = negative_sampling.\
-      RandomNegativeSampler(list(valid["response"].values) + \
-      list(train["response"].values), 9)
+      RandomNegativeSampler(list(valid["Relevant_Document"].values) + \
+      list(train["Relevant_Document"].values), 9)
 
    #Create the loaders for the datasets, 
    #with the respective negative samplers        
