@@ -36,8 +36,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="transformer_rankers.negative_samplers" href="transformer_rankers.negative_samplers.html" />
-    <link rel="prev" title="transformer_rankers.examples.negative_sampling_example.main" href="transformer_rankers.examples.negative_sampling_example.main.html" /> 
+    <link rel="next" title="transformer_rankers.models.losses" href="transformer_rankers.models.losses.html" />
+    <link rel="prev" title="transformer_rankers.examples.t5_ranker.run_experiment" href="transformer_rankers.examples.t5_ranker.run_experiment.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -89,23 +89,27 @@
 <li class="toctree-l2"><a class="reference internal" href="../quick-start.html#example">Example</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../main-modules.html">Intro to Components</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../main-modules.html#datasets">datasets</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../main-modules.html#negative-samplers">negative_samplers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../main-modules.html#eval">eval</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../main-modules.html#trainers">trainers</a></li>
-</ul>
-</li>
 </ul>
 <p class="caption"><span class="caption-text">Documentation</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="transformer_rankers.html">transformer_rankers</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="transformer_rankers.datasets.html">transformer_rankers.datasets</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="transformer_rankers.datasets.dataset.html">transformer_rankers.datasets.dataset</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.dataset.collate_T2T_batch.html">transformer_rankers.datasets.dataset.collate_T2T_batch</a></li>
 <li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.dataset.AbstractDataloader.html">transformer_rankers.datasets.dataset.AbstractDataloader</a></li>
 <li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.dataset.QueryDocumentDataLoader.html">transformer_rankers.datasets.dataset.QueryDocumentDataLoader</a></li>
 <li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.dataset.QueryDocumentDataset.html">transformer_rankers.datasets.dataset.QueryDocumentDataset</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.dataset.T2TDataCollator.html">transformer_rankers.datasets.dataset.T2TDataCollator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.dataset.QueryPosDocNegDocDataLoader.html">transformer_rankers.datasets.dataset.QueryPosDocNegDocDataLoader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.dataset.QueryPosDocNegDocDataset.html">transformer_rankers.datasets.dataset.QueryPosDocNegDocDataset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataLoader.html">transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataLoader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataset.html">transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataset</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.datasets.downloader.html">transformer_rankers.datasets.downloader</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.downloader.download_file_from_google_drive.html">transformer_rankers.datasets.downloader.download_file_from_google_drive</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.downloader.get_confirm_token.html">transformer_rankers.datasets.downloader.get_confirm_token</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.downloader.save_response_content.html">transformer_rankers.datasets.downloader.save_response_content</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.downloader.DataDownloader.html">transformer_rankers.datasets.downloader.DataDownloader</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="transformer_rankers.datasets.preprocess_crr.html">transformer_rankers.datasets.preprocess_crr</a><ul>
@@ -120,6 +124,16 @@
 <li class="toctree-l3"><a class="reference internal" href="transformer_rankers.datasets.preprocess_sqr.html">transformer_rankers.datasets.preprocess_sqr</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.preprocess_sqr.transform_linkso_to_duplicates_dfs.html">transformer_rankers.datasets.preprocess_sqr.transform_linkso_to_duplicates_dfs</a></li>
 <li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.preprocess_sqr.transform_quora_question_pairs_to_duplicates_dfs.html">transformer_rankers.datasets.preprocess_sqr.transform_quora_question_pairs_to_duplicates_dfs</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.datasets.processors.html">transformer_rankers.datasets.processors</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.processors.clariq_processor.html">transformer_rankers.datasets.processors.clariq_processor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.processors.linkso_processor.html">transformer_rankers.datasets.processors.linkso_processor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.processors.mantis_processor.html">transformer_rankers.datasets.processors.mantis_processor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.processors.msdialog_processor.html">transformer_rankers.datasets.processors.msdialog_processor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.processors.qqp_processor.html">transformer_rankers.datasets.processors.qqp_processor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.processors.trec2020pr_processor.html">transformer_rankers.datasets.processors.trec2020pr_processor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.datasets.processors.ubuntu_dstc8_processor.html">transformer_rankers.datasets.processors.ubuntu_dstc8_processor</a></li>
 </ul>
 </li>
 </ul>
@@ -138,27 +152,68 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="transformer_rankers.examples.html">transformer_rankers.examples</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.crr_T5_ranker_example.html">transformer_rankers.examples.crr_T5_ranker_example</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.crr_T5_ranker_example.main.html">transformer_rankers.examples.crr_T5_ranker_example.main</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.crr_T5_ranker_example.run_experiment.html">transformer_rankers.examples.crr_T5_ranker_example.run_experiment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.aggregate_sacred_result_logs.html">transformer_rankers.examples.aggregate_sacred_result_logs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.aggregate_sacred_result_logs.main.html">transformer_rankers.examples.aggregate_sacred_result_logs.main</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.crr_bert_ranker_example.html">transformer_rankers.examples.crr_bert_ranker_example</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.crr_bert_ranker_example.main.html">transformer_rankers.examples.crr_bert_ranker_example.main</a></li>
-<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.crr_bert_ranker_example.run_experiment.html">transformer_rankers.examples.crr_bert_ranker_example.run_experiment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.analyze_ws.html">transformer_rankers.examples.analyze_ws</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.analyze_ws.main.html">transformer_rankers.examples.analyze_ws.main</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.analyze_ws.run_experiment.html">transformer_rankers.examples.analyze_ws.run_experiment</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.crr_results_analyses_example.html">transformer_rankers.examples.crr_results_analyses_example</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.crr_results_analyses_example.main.html">transformer_rankers.examples.crr_results_analyses_example.main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.html">transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.main.html">transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.main</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.run_experiment.html">transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.run_experiment</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.negative_sampling_example.html">transformer_rankers.examples.negative_sampling_example</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.negative_sampling_example.main.html">transformer_rankers.examples.negative_sampling_example.main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.download_task_data.html">transformer_rankers.examples.download_task_data</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.download_task_data.main.html">transformer_rankers.examples.download_task_data.main</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.minimal_example.html">transformer_rankers.examples.minimal_example</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.minimal_example.main.html">transformer_rankers.examples.minimal_example.main</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.negative_sampling.html">transformer_rankers.examples.negative_sampling</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.negative_sampling.main.html">transformer_rankers.examples.negative_sampling.main</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.pairwise_bert_ranker.html">transformer_rankers.examples.pairwise_bert_ranker</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.pairwise_bert_ranker.main.html">transformer_rankers.examples.pairwise_bert_ranker.main</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.pairwise_bert_ranker.run_experiment.html">transformer_rankers.examples.pairwise_bert_ranker.run_experiment</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.pointwise_bert_ranker.html">transformer_rankers.examples.pointwise_bert_ranker</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.pointwise_bert_ranker.main.html">transformer_rankers.examples.pointwise_bert_ranker.main</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.pointwise_bert_ranker.run_experiment.html">transformer_rankers.examples.pointwise_bert_ranker.run_experiment</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.examples.t5_ranker.html">transformer_rankers.examples.t5_ranker</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.t5_ranker.main.html">transformer_rankers.examples.t5_ranker.main</a></li>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.examples.t5_ranker.run_experiment.html">transformer_rankers.examples.t5_ranker.run_experiment</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">transformer_rankers.models</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">transformer_rankers.models</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.models.losses.html">transformer_rankers.models.losses</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.models.losses.label_smoothing.html">transformer_rankers.models.losses.label_smoothing</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html">transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy</a></li>
+<li class="toctree-l5"><a class="reference internal" href="transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html">transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.models.pairwise_bert.html">transformer_rankers.models.pairwise_bert</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html">transformer_rankers.models.pairwise_bert.BertForPairwiseLearning</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.models.pointwise_bert.html">transformer_rankers.models.pointwise_bert</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html">transformer_rankers.models.pointwise_bert.BertForPointwiseLearning</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="transformer_rankers.negative_samplers.html">transformer_rankers.negative_samplers</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="transformer_rankers.negative_samplers.negative_sampling.html">transformer_rankers.negative_samplers.negative_sampling</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="transformer_rankers.negative_samplers.negative_sampling.BM25NegativeSamplerPyserini.html">transformer_rankers.negative_samplers.negative_sampling.BM25NegativeSamplerPyserini</a></li>
@@ -169,22 +224,6 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="transformer_rankers.scripts.html">transformer_rankers.scripts</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.scripts.analyze_uncertainty.html">transformer_rankers.scripts.analyze_uncertainty</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.scripts.analyze_uncertainty.main.html">transformer_rankers.scripts.analyze_uncertainty.main</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.scripts.preprocess_pr_datasets.html">transformer_rankers.scripts.preprocess_pr_datasets</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.scripts.preprocess_pr_datasets.main.html">transformer_rankers.scripts.preprocess_pr_datasets.main</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.scripts.preprocess_sqr_datasets.html">transformer_rankers.scripts.preprocess_sqr_datasets</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.scripts.preprocess_sqr_datasets.main.html">transformer_rankers.scripts.preprocess_sqr_datasets.main</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="transformer_rankers.scripts.preprocess_ubuntu_dstc8.html">transformer_rankers.scripts.preprocess_ubuntu_dstc8</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="transformer_rankers.scripts.preprocess_ubuntu_dstc8.main.html">transformer_rankers.scripts.preprocess_ubuntu_dstc8.main</a></li>
-</ul>
-</li>
 <li class="toctree-l3"><a class="reference internal" href="transformer_rankers.scripts.select_ns_examples.html">transformer_rankers.scripts.select_ns_examples</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="transformer_rankers.scripts.select_ns_examples.main.html">transformer_rankers.scripts.select_ns_examples.main</a></li>
 </ul>
@@ -283,6 +322,24 @@
             
   <div class="section" id="module-transformer_rankers.models">
 <span id="transformer-rankers-models"></span><h1>transformer_rankers.models<a class="headerlink" href="#module-transformer_rankers.models" title="Permalink to this headline">¶</a></h1>
+<p class="rubric">Modules</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transformer_rankers.models.losses</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transformer_rankers.models.pairwise_bert</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="transformer_rankers.models.pointwise_bert.html#module-transformer_rankers.models.pointwise_bert" title="transformer_rankers.models.pointwise_bert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">transformer_rankers.models.pointwise_bert</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
 </div>
 
 
@@ -293,10 +350,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="transformer_rankers.negative_samplers.html" class="btn btn-neutral float-right" title="transformer_rankers.negative_samplers" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="transformer_rankers.models.losses.html" class="btn btn-neutral float-right" title="transformer_rankers.models.losses" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="transformer_rankers.examples.negative_sampling_example.main.html" class="btn btn-neutral float-left" title="transformer_rankers.examples.negative_sampling_example.main" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="transformer_rankers.examples.t5_ranker.run_experiment.html" class="btn btn-neutral float-left" title="transformer_rankers.examples.t5_ranker.run_experiment" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

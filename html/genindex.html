@@ -84,15 +84,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="quick-start.html">Quick-start</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="quick-start.html#setup">Setup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="quick-start.html#example-i-supported-dataset">Example (I) - Supported dataset</a></li>
-<li class="toctree-l2"><a class="reference internal" href="quick-start.html#example-ii-custom-dataset">Example (II) - Custom dataset</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="main-modules.html">Intro to Components</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="main-modules.html#datasets">datasets</a></li>
-<li class="toctree-l2"><a class="reference internal" href="main-modules.html#negative-samplers">negative_samplers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="main-modules.html#eval">eval</a></li>
-<li class="toctree-l2"><a class="reference internal" href="main-modules.html#trainers">trainers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quick-start.html#example">Example</a></li>
 </ul>
 </li>
 </ul>
@@ -101,10 +93,21 @@
 <li class="toctree-l1"><a class="reference internal" href="_autosummary/transformer_rankers.html">transformer_rankers</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.html">transformer_rankers.datasets</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.dataset.html">transformer_rankers.datasets.dataset</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.dataset.collate_T2T_batch.html">transformer_rankers.datasets.dataset.collate_T2T_batch</a></li>
 <li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.dataset.AbstractDataloader.html">transformer_rankers.datasets.dataset.AbstractDataloader</a></li>
 <li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.dataset.QueryDocumentDataLoader.html">transformer_rankers.datasets.dataset.QueryDocumentDataLoader</a></li>
 <li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.dataset.QueryDocumentDataset.html">transformer_rankers.datasets.dataset.QueryDocumentDataset</a></li>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.dataset.T2TDataCollator.html">transformer_rankers.datasets.dataset.T2TDataCollator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.dataset.QueryPosDocNegDocDataLoader.html">transformer_rankers.datasets.dataset.QueryPosDocNegDocDataLoader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.dataset.QueryPosDocNegDocDataset.html">transformer_rankers.datasets.dataset.QueryPosDocNegDocDataset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataLoader.html">transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataLoader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataset.html">transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataset</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.downloader.html">transformer_rankers.datasets.downloader</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.downloader.download_file_from_google_drive.html">transformer_rankers.datasets.downloader.download_file_from_google_drive</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.downloader.get_confirm_token.html">transformer_rankers.datasets.downloader.get_confirm_token</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.downloader.save_response_content.html">transformer_rankers.datasets.downloader.save_response_content</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.downloader.DataDownloader.html">transformer_rankers.datasets.downloader.DataDownloader</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.preprocess_crr.html">transformer_rankers.datasets.preprocess_crr</a><ul>
@@ -119,6 +122,16 @@
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.preprocess_sqr.html">transformer_rankers.datasets.preprocess_sqr</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.preprocess_sqr.transform_linkso_to_duplicates_dfs.html">transformer_rankers.datasets.preprocess_sqr.transform_linkso_to_duplicates_dfs</a></li>
 <li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.preprocess_sqr.transform_quora_question_pairs_to_duplicates_dfs.html">transformer_rankers.datasets.preprocess_sqr.transform_quora_question_pairs_to_duplicates_dfs</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.processors.html">transformer_rankers.datasets.processors</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.processors.clariq_processor.html">transformer_rankers.datasets.processors.clariq_processor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.processors.linkso_processor.html">transformer_rankers.datasets.processors.linkso_processor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.processors.mantis_processor.html">transformer_rankers.datasets.processors.mantis_processor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.processors.msdialog_processor.html">transformer_rankers.datasets.processors.msdialog_processor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.processors.qqp_processor.html">transformer_rankers.datasets.processors.qqp_processor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.processors.trec2020pr_processor.html">transformer_rankers.datasets.processors.trec2020pr_processor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.datasets.processors.ubuntu_dstc8_processor.html">transformer_rankers.datasets.processors.ubuntu_dstc8_processor</a></li>
 </ul>
 </li>
 </ul>
@@ -137,32 +150,68 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="_autosummary/transformer_rankers.examples.html">transformer_rankers.examples</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.crr_T5_ranker_example.html">transformer_rankers.examples.crr_T5_ranker_example</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.crr_T5_ranker_example.main.html">transformer_rankers.examples.crr_T5_ranker_example.main</a></li>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.crr_T5_ranker_example.run_experiment.html">transformer_rankers.examples.crr_T5_ranker_example.run_experiment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.aggregate_sacred_result_logs.html">transformer_rankers.examples.aggregate_sacred_result_logs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.aggregate_sacred_result_logs.main.html">transformer_rankers.examples.aggregate_sacred_result_logs.main</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.crr_bert_cross_task_cross_ns.html">transformer_rankers.examples.crr_bert_cross_task_cross_ns</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.crr_bert_cross_task_cross_ns.main.html">transformer_rankers.examples.crr_bert_cross_task_cross_ns.main</a></li>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.crr_bert_cross_task_cross_ns.run_experiment.html">transformer_rankers.examples.crr_bert_cross_task_cross_ns.run_experiment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.analyze_ws.html">transformer_rankers.examples.analyze_ws</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.analyze_ws.main.html">transformer_rankers.examples.analyze_ws.main</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.analyze_ws.run_experiment.html">transformer_rankers.examples.analyze_ws.run_experiment</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.crr_bert_ranker_example.html">transformer_rankers.examples.crr_bert_ranker_example</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.crr_bert_ranker_example.main.html">transformer_rankers.examples.crr_bert_ranker_example.main</a></li>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.crr_bert_ranker_example.run_experiment.html">transformer_rankers.examples.crr_bert_ranker_example.run_experiment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.html">transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.main.html">transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.main</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.run_experiment.html">transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.run_experiment</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.crr_results_analyses_example.html">transformer_rankers.examples.crr_results_analyses_example</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.crr_results_analyses_example.main.html">transformer_rankers.examples.crr_results_analyses_example.main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.download_task_data.html">transformer_rankers.examples.download_task_data</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.download_task_data.main.html">transformer_rankers.examples.download_task_data.main</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.negative_sampling_example.html">transformer_rankers.examples.negative_sampling_example</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.negative_sampling_example.main.html">transformer_rankers.examples.negative_sampling_example.main</a></li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.minimal_example.html">transformer_rankers.examples.minimal_example</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.minimal_example.main.html">transformer_rankers.examples.minimal_example.main</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.negative_sampling.html">transformer_rankers.examples.negative_sampling</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.negative_sampling.main.html">transformer_rankers.examples.negative_sampling.main</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.pairwise_bert_ranker.html">transformer_rankers.examples.pairwise_bert_ranker</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.pairwise_bert_ranker.main.html">transformer_rankers.examples.pairwise_bert_ranker.main</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.pairwise_bert_ranker.run_experiment.html">transformer_rankers.examples.pairwise_bert_ranker.run_experiment</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.pointwise_bert_ranker.html">transformer_rankers.examples.pointwise_bert_ranker</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.pointwise_bert_ranker.main.html">transformer_rankers.examples.pointwise_bert_ranker.main</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.pointwise_bert_ranker.run_experiment.html">transformer_rankers.examples.pointwise_bert_ranker.run_experiment</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.examples.t5_ranker.html">transformer_rankers.examples.t5_ranker</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.t5_ranker.main.html">transformer_rankers.examples.t5_ranker.main</a></li>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.examples.t5_ranker.run_experiment.html">transformer_rankers.examples.t5_ranker.run_experiment</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="_autosummary/transformer_rankers.models.html">transformer_rankers.models</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_autosummary/transformer_rankers.models.html">transformer_rankers.models</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.models.losses.html">transformer_rankers.models.losses</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.models.losses.label_smoothing.html">transformer_rankers.models.losses.label_smoothing</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html">transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy</a></li>
+<li class="toctree-l5"><a class="reference internal" href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html">transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.models.pairwise_bert.html">transformer_rankers.models.pairwise_bert</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html">transformer_rankers.models.pairwise_bert.BertForPairwiseLearning</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.models.pointwise_bert.html">transformer_rankers.models.pointwise_bert</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html">transformer_rankers.models.pointwise_bert.BertForPointwiseLearning</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="_autosummary/transformer_rankers.negative_samplers.html">transformer_rankers.negative_samplers</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.negative_samplers.negative_sampling.html">transformer_rankers.negative_samplers.negative_sampling</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.negative_samplers.negative_sampling.BM25NegativeSamplerPyserini.html">transformer_rankers.negative_samplers.negative_sampling.BM25NegativeSamplerPyserini</a></li>
@@ -173,30 +222,6 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.html">transformer_rankers.scripts</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.aggregate_ensemble_files.html">transformer_rankers.scripts.aggregate_ensemble_files</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.aggregate_ensemble_files.main.html">transformer_rankers.scripts.aggregate_ensemble_files.main</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.analyze_uncertainty.html">transformer_rankers.scripts.analyze_uncertainty</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.analyze_uncertainty.main.html">transformer_rankers.scripts.analyze_uncertainty.main</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.preprocess_cqr_data.html">transformer_rankers.scripts.preprocess_cqr_data</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.preprocess_cqr_data.main.html">transformer_rankers.scripts.preprocess_cqr_data.main</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.preprocess_pr_datasets.html">transformer_rankers.scripts.preprocess_pr_datasets</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.preprocess_pr_datasets.main.html">transformer_rankers.scripts.preprocess_pr_datasets.main</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.preprocess_sqr_datasets.html">transformer_rankers.scripts.preprocess_sqr_datasets</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.preprocess_sqr_datasets.main.html">transformer_rankers.scripts.preprocess_sqr_datasets.main</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.preprocess_ubuntu_dstc8.html">transformer_rankers.scripts.preprocess_ubuntu_dstc8</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.preprocess_ubuntu_dstc8.main.html">transformer_rankers.scripts.preprocess_ubuntu_dstc8.main</a></li>
-</ul>
-</li>
 <li class="toctree-l3"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.select_ns_examples.html">transformer_rankers.scripts.select_ns_examples</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="_autosummary/transformer_rankers.scripts.select_ns_examples.main.html">transformer_rankers.scripts.select_ns_examples.main</a></li>
 </ul>
@@ -299,15 +324,23 @@
  | <a href="#A"><strong>A</strong></a>
  | <a href="#B"><strong>B</strong></a>
  | <a href="#C"><strong>C</strong></a>
+ | <a href="#D"><strong>D</strong></a>
  | <a href="#E"><strong>E</strong></a>
  | <a href="#F"><strong>F</strong></a>
  | <a href="#G"><strong>G</strong></a>
+ | <a href="#H"><strong>H</strong></a>
+ | <a href="#I"><strong>I</strong></a>
+ | <a href="#L"><strong>L</strong></a>
  | <a href="#M"><strong>M</strong></a>
+ | <a href="#N"><strong>N</strong></a>
  | <a href="#P"><strong>P</strong></a>
  | <a href="#Q"><strong>Q</strong></a>
  | <a href="#R"><strong>R</strong></a>
  | <a href="#S"><strong>S</strong></a>
  | <a href="#T"><strong>T</strong></a>
+ | <a href="#U"><strong>U</strong></a>
+ | <a href="#W"><strong>W</strong></a>
+ | <a href="#Z"><strong>Z</strong></a>
  
 </div>
 <h2 id="_">_</h2>
@@ -320,7 +353,23 @@
 </li>
         <li><a href="_autosummary/transformer_rankers.datasets.dataset.QueryDocumentDataset.html#transformer_rankers.datasets.dataset.QueryDocumentDataset.__init__">(transformer_rankers.datasets.dataset.QueryDocumentDataset method)</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.datasets.dataset.T2TDataCollator.html#transformer_rankers.datasets.dataset.T2TDataCollator.__init__">(transformer_rankers.datasets.dataset.T2TDataCollator method)</a>
+        <li><a href="_autosummary/transformer_rankers.datasets.dataset.QueryPosDocNegDocDataLoader.html#transformer_rankers.datasets.dataset.QueryPosDocNegDocDataLoader.__init__">(transformer_rankers.datasets.dataset.QueryPosDocNegDocDataLoader method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.datasets.dataset.QueryPosDocNegDocDataset.html#transformer_rankers.datasets.dataset.QueryPosDocNegDocDataset.__init__">(transformer_rankers.datasets.dataset.QueryPosDocNegDocDataset method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataLoader.html#transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataLoader.__init__">(transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataLoader method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataset.html#transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataset.__init__">(transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataset method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.datasets.downloader.DataDownloader.html#transformer_rankers.datasets.downloader.DataDownloader.__init__">(transformer_rankers.datasets.downloader.DataDownloader method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.__init__">(transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.__init__">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.__init__">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.__init__">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
 </li>
         <li><a href="_autosummary/transformer_rankers.negative_samplers.negative_sampling.BM25NegativeSamplerPyserini.html#transformer_rankers.negative_samplers.negative_sampling.BM25NegativeSamplerPyserini.__init__">(transformer_rankers.negative_samplers.negative_sampling.BM25NegativeSamplerPyserini method)</a>
 </li>
@@ -345,48 +394,220 @@
 </li>
       <li><a href="_autosummary/transformer_rankers.utils.utils.acumulate_l1_by_l2.html#transformer_rankers.utils.utils.acumulate_l1_by_l2">acumulate_l1_by_l2() (in module transformer_rankers.utils.utils)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="_autosummary/transformer_rankers.utils.utils.acumulate_list.html#transformer_rankers.utils.utils.acumulate_list">acumulate_list() (in module transformer_rankers.utils.utils)</a>
 </li>
       <li><a href="_autosummary/transformer_rankers.utils.utils.acumulate_list_multiple_relevant.html#transformer_rankers.utils.utils.acumulate_list_multiple_relevant">acumulate_list_multiple_relevant() (in module transformer_rankers.utils.utils)</a>
 </li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.add_memory_hooks">add_memory_hooks() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.add_memory_hooks">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.add_module">add_module() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.add_module">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.add_module">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.add_module">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.adjust_logits_during_generation">adjust_logits_during_generation() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.adjust_logits_during_generation">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.apply">apply() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.apply">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.apply">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.apply">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
   </ul></td>
 </tr></table>
 
 <h2 id="B">B</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.base_model">base_model() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning property)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.base_model">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning property)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning">BertForPairwiseLearning (class in transformer_rankers.models.pairwise_bert)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#id0">BertForPairwiseLearning.to() (in module transformer_rankers.models.pairwise_bert)</a>, <a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#id1">[1]</a>, <a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#id2">[2]</a>, <a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#id3">[3]</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning">BertForPointwiseLearning (class in transformer_rankers.models.pointwise_bert)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#id0">BertForPointwiseLearning.to() (in module transformer_rankers.models.pointwise_bert)</a>, <a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#id1">[1]</a>, <a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#id2">[2]</a>, <a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#id3">[3]</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.bfloat16">bfloat16() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.bfloat16">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.bfloat16">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.bfloat16">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="_autosummary/transformer_rankers.negative_samplers.negative_sampling.BM25NegativeSamplerPyserini.html#transformer_rankers.negative_samplers.negative_sampling.BM25NegativeSamplerPyserini">BM25NegativeSamplerPyserini (class in transformer_rankers.negative_samplers.negative_sampling)</a>
 </li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.buffers">buffers() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.buffers">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.buffers">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.buffers">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
   </ul></td>
 </tr></table>
 
 <h2 id="C">C</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="_autosummary/transformer_rankers.datasets.dataset.T2TDataCollator.html#transformer_rankers.datasets.dataset.T2TDataCollator.collate_batch">collate_batch() (transformer_rankers.datasets.dataset.T2TDataCollator method)</a>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.children">children() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.children">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
 </li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.children">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.children">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.datasets.processors.clariq_processor.html#transformer_rankers.datasets.processors.clariq_processor">clariq_processor() (in module transformer_rankers.datasets.processors)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.datasets.dataset.collate_T2T_batch.html#transformer_rankers.datasets.dataset.collate_T2T_batch">collate_T2T_batch() (in module transformer_rankers.datasets.dataset)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.config_class">config_class (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning attribute)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.config_class">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.cpu">cpu() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.cpu">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.cpu">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.cpu">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="_autosummary/transformer_rankers.scripts.train_sentenceBERT_crr.CRRBenchmarkDataReader.html#transformer_rankers.scripts.train_sentenceBERT_crr.CRRBenchmarkDataReader">CRRBenchmarkDataReader (class in transformer_rankers.scripts.train_sentenceBERT_crr)</a>
 </li>
       <li><a href="_autosummary/transformer_rankers.scripts.train_sentenceBERT_crr.CRRDataReader.html#transformer_rankers.scripts.train_sentenceBERT_crr.CRRDataReader">CRRDataReader (class in transformer_rankers.scripts.train_sentenceBERT_crr)</a>
 </li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.cuda">cuda() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.cuda">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.cuda">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.cuda">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="D">D</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.datasets.downloader.DataDownloader.html#transformer_rankers.datasets.downloader.DataDownloader">DataDownloader (class in transformer_rankers.datasets.downloader)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.device">device() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning property)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.device">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning property)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.double">double() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.double">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.double">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.double">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.datasets.downloader.download_file_from_google_drive.html#transformer_rankers.datasets.downloader.download_file_from_google_drive">download_file_from_google_drive() (in module transformer_rankers.datasets.downloader)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.dtype">dtype() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning property)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.dtype">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning property)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.dummy_inputs">dummy_inputs() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning property)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.dummy_inputs">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning property)</a>
+</li>
+      </ul></li>
   </ul></td>
 </tr></table>
 
 <h2 id="E">E</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="_autosummary/transformer_rankers.eval.results_analyses_tools.evaluate.html#transformer_rankers.eval.results_analyses_tools.evaluate">evaluate() (in module transformer_rankers.eval.results_analyses_tools)</a>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.enforce_repetition_penalty_">enforce_repetition_penalty_() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.enforce_repetition_penalty_">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
 </li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.eval">eval() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.eval">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.eval">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.eval">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.eval.results_analyses_tools.evaluate.html#transformer_rankers.eval.results_analyses_tools.evaluate">evaluate() (in module transformer_rankers.eval.results_analyses_tools)</a>
+</li>
       <li><a href="_autosummary/transformer_rankers.eval.results_analyses_tools.evaluate_and_aggregate.html#transformer_rankers.eval.results_analyses_tools.evaluate_and_aggregate">evaluate_and_aggregate() (in module transformer_rankers.eval.results_analyses_tools)</a>
 </li>
       <li><a href="_autosummary/transformer_rankers.eval.evaluation.evaluate_models.html#transformer_rankers.eval.evaluation.evaluate_models">evaluate_models() (in module transformer_rankers.eval.evaluation)</a>
 </li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.extra_repr">extra_repr() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.extra_repr">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.extra_repr">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.extra_repr">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
   </ul></td>
 </tr></table>
 
@@ -395,20 +616,146 @@
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="_autosummary/transformer_rankers.trainers.transformer_trainer.TransformerTrainer.html#transformer_rankers.trainers.transformer_trainer.TransformerTrainer.fit">fit() (transformer_rankers.trainers.transformer_trainer.TransformerTrainer method)</a>
 </li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.float">float() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.float">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.float">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.float">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.forward">forward() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.forward">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.forward">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.forward">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="_autosummary/transformer_rankers.utils.utils.from_df_to_list_without_nans.html#transformer_rankers.utils.utils.from_df_to_list_without_nans">from_df_to_list_without_nans() (in module transformer_rankers.utils.utils)</a>
 </li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.from_pretrained">from_pretrained() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning class method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.from_pretrained">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning class method)</a>
+</li>
+      </ul></li>
   </ul></td>
 </tr></table>
 
 <h2 id="G">G</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.generate">generate() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.generate">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.datasets.downloader.get_confirm_token.html#transformer_rankers.datasets.downloader.get_confirm_token">get_confirm_token() (in module transformer_rankers.datasets.downloader)</a>
+</li>
       <li><a href="_autosummary/transformer_rankers.scripts.train_sentenceBERT_crr.CRRBenchmarkDataReader.html#transformer_rankers.scripts.train_sentenceBERT_crr.CRRBenchmarkDataReader.get_examples">get_examples() (transformer_rankers.scripts.train_sentenceBERT_crr.CRRBenchmarkDataReader method)</a>
 
       <ul>
         <li><a href="_autosummary/transformer_rankers.scripts.train_sentenceBERT_crr.CRRDataReader.html#transformer_rankers.scripts.train_sentenceBERT_crr.CRRDataReader.get_examples">(transformer_rankers.scripts.train_sentenceBERT_crr.CRRDataReader method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.get_extended_attention_mask">get_extended_attention_mask() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.get_extended_attention_mask">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.get_head_mask">get_head_mask() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.get_head_mask">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.get_input_embeddings">get_input_embeddings() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.get_input_embeddings">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.get_output_embeddings">get_output_embeddings() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.get_output_embeddings">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="H">H</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.half">half() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.half">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.half">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.half">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="I">I</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.init_weights">init_weights() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.init_weights">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.invert_attention_mask">invert_attention_mask() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.invert_attention_mask">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="L">L</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy">LabelSmoothingCrossEntropy (class in transformer_rankers.models.losses.label_smoothing)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#id0">LabelSmoothingCrossEntropy.to() (in module transformer_rankers.models.losses.label_smoothing)</a>, <a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#id1">[1]</a>, <a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#id2">[2]</a>, <a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#id3">[3]</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.datasets.processors.linkso_processor.html#transformer_rankers.datasets.processors.linkso_processor">linkso_processor() (in module transformer_rankers.datasets.processors)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.load_state_dict">load_state_dict() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.load_state_dict">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.load_state_dict">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.load_state_dict">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.load_tf_weights">load_tf_weights() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.load_tf_weights">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
 </li>
       </ul></li>
   </ul></td>
@@ -417,34 +764,32 @@
 <h2 id="M">M</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="_autosummary/transformer_rankers.examples.crr_bert_cross_task_cross_ns.main.html#transformer_rankers.examples.crr_bert_cross_task_cross_ns.main">main() (in module transformer_rankers.examples.crr_bert_cross_task_cross_ns)</a>
+      <li><a href="_autosummary/transformer_rankers.examples.aggregate_sacred_result_logs.main.html#transformer_rankers.examples.aggregate_sacred_result_logs.main">main() (in module transformer_rankers.examples.aggregate_sacred_result_logs)</a>
 
       <ul>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_bert_ranker_example.main.html#transformer_rankers.examples.crr_bert_ranker_example.main">(in module transformer_rankers.examples.crr_bert_ranker_example)</a>
+        <li><a href="_autosummary/transformer_rankers.examples.analyze_ws.main.html#transformer_rankers.examples.analyze_ws.main">(in module transformer_rankers.examples.analyze_ws)</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_results_analyses_example.main.html#transformer_rankers.examples.crr_results_analyses_example.main">(in module transformer_rankers.examples.crr_results_analyses_example)</a>
+        <li><a href="_autosummary/transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.main.html#transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.main">(in module transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr)</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_T5_ranker_example.main.html#transformer_rankers.examples.crr_T5_ranker_example.main">(in module transformer_rankers.examples.crr_T5_ranker_example)</a>
+        <li><a href="_autosummary/transformer_rankers.examples.download_task_data.main.html#transformer_rankers.examples.download_task_data.main">(in module transformer_rankers.examples.download_task_data)</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.examples.negative_sampling_example.main.html#transformer_rankers.examples.negative_sampling_example.main">(in module transformer_rankers.examples.negative_sampling_example)</a>
+        <li><a href="_autosummary/transformer_rankers.examples.minimal_example.main.html#transformer_rankers.examples.minimal_example.main">(in module transformer_rankers.examples.minimal_example)</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.scripts.aggregate_ensemble_files.main.html#transformer_rankers.scripts.aggregate_ensemble_files.main">(in module transformer_rankers.scripts.aggregate_ensemble_files)</a>
+        <li><a href="_autosummary/transformer_rankers.examples.negative_sampling.main.html#transformer_rankers.examples.negative_sampling.main">(in module transformer_rankers.examples.negative_sampling)</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.scripts.analyze_uncertainty.main.html#transformer_rankers.scripts.analyze_uncertainty.main">(in module transformer_rankers.scripts.analyze_uncertainty)</a>
+        <li><a href="_autosummary/transformer_rankers.examples.pairwise_bert_ranker.main.html#transformer_rankers.examples.pairwise_bert_ranker.main">(in module transformer_rankers.examples.pairwise_bert_ranker)</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.scripts.preprocess_cqr_data.main.html#transformer_rankers.scripts.preprocess_cqr_data.main">(in module transformer_rankers.scripts.preprocess_cqr_data)</a>
+        <li><a href="_autosummary/transformer_rankers.examples.pointwise_bert_ranker.main.html#transformer_rankers.examples.pointwise_bert_ranker.main">(in module transformer_rankers.examples.pointwise_bert_ranker)</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.scripts.preprocess_pr_datasets.main.html#transformer_rankers.scripts.preprocess_pr_datasets.main">(in module transformer_rankers.scripts.preprocess_pr_datasets)</a>
-</li>
-        <li><a href="_autosummary/transformer_rankers.scripts.preprocess_sqr_datasets.main.html#transformer_rankers.scripts.preprocess_sqr_datasets.main">(in module transformer_rankers.scripts.preprocess_sqr_datasets)</a>
-</li>
-        <li><a href="_autosummary/transformer_rankers.scripts.preprocess_ubuntu_dstc8.main.html#transformer_rankers.scripts.preprocess_ubuntu_dstc8.main">(in module transformer_rankers.scripts.preprocess_ubuntu_dstc8)</a>
+        <li><a href="_autosummary/transformer_rankers.examples.t5_ranker.main.html#transformer_rankers.examples.t5_ranker.main">(in module transformer_rankers.examples.t5_ranker)</a>
 </li>
         <li><a href="_autosummary/transformer_rankers.scripts.select_ns_examples.main.html#transformer_rankers.scripts.select_ns_examples.main">(in module transformer_rankers.scripts.select_ns_examples)</a>
 </li>
         <li><a href="_autosummary/transformer_rankers.scripts.train_sentenceBERT_crr.main.html#transformer_rankers.scripts.train_sentenceBERT_crr.main">(in module transformer_rankers.scripts.train_sentenceBERT_crr)</a>
 </li>
       </ul></li>
+      <li><a href="_autosummary/transformer_rankers.datasets.processors.mantis_processor.html#transformer_rankers.datasets.processors.mantis_processor">mantis_processor() (in module transformer_rankers.datasets.processors)</a>
+</li>
       <li>
     module
 
@@ -455,11 +800,15 @@
 </li>
         <li><a href="_autosummary/transformer_rankers.datasets.dataset.html#module-transformer_rankers.datasets.dataset">transformer_rankers.datasets.dataset</a>
 </li>
+        <li><a href="_autosummary/transformer_rankers.datasets.downloader.html#module-transformer_rankers.datasets.downloader">transformer_rankers.datasets.downloader</a>
+</li>
         <li><a href="_autosummary/transformer_rankers.datasets.preprocess_crr.html#module-transformer_rankers.datasets.preprocess_crr">transformer_rankers.datasets.preprocess_crr</a>
 </li>
         <li><a href="_autosummary/transformer_rankers.datasets.preprocess_pr.html#module-transformer_rankers.datasets.preprocess_pr">transformer_rankers.datasets.preprocess_pr</a>
 </li>
         <li><a href="_autosummary/transformer_rankers.datasets.preprocess_sqr.html#module-transformer_rankers.datasets.preprocess_sqr">transformer_rankers.datasets.preprocess_sqr</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.datasets.processors.html#module-transformer_rankers.datasets.processors">transformer_rankers.datasets.processors</a>
 </li>
         <li><a href="_autosummary/transformer_rankers.eval.html#module-transformer_rankers.eval">transformer_rankers.eval</a>
 </li>
@@ -469,35 +818,39 @@
 </li>
         <li><a href="_autosummary/transformer_rankers.examples.html#module-transformer_rankers.examples">transformer_rankers.examples</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_bert_cross_task_cross_ns.html#module-transformer_rankers.examples.crr_bert_cross_task_cross_ns">transformer_rankers.examples.crr_bert_cross_task_cross_ns</a>
+        <li><a href="_autosummary/transformer_rankers.examples.aggregate_sacred_result_logs.html#module-transformer_rankers.examples.aggregate_sacred_result_logs">transformer_rankers.examples.aggregate_sacred_result_logs</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_bert_ranker_example.html#module-transformer_rankers.examples.crr_bert_ranker_example">transformer_rankers.examples.crr_bert_ranker_example</a>
+        <li><a href="_autosummary/transformer_rankers.examples.analyze_ws.html#module-transformer_rankers.examples.analyze_ws">transformer_rankers.examples.analyze_ws</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_results_analyses_example.html#module-transformer_rankers.examples.crr_results_analyses_example">transformer_rankers.examples.crr_results_analyses_example</a>
+        <li><a href="_autosummary/transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.html#module-transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr">transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_T5_ranker_example.html#module-transformer_rankers.examples.crr_T5_ranker_example">transformer_rankers.examples.crr_T5_ranker_example</a>
+        <li><a href="_autosummary/transformer_rankers.examples.download_task_data.html#module-transformer_rankers.examples.download_task_data">transformer_rankers.examples.download_task_data</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.examples.negative_sampling_example.html#module-transformer_rankers.examples.negative_sampling_example">transformer_rankers.examples.negative_sampling_example</a>
+        <li><a href="_autosummary/transformer_rankers.examples.minimal_example.html#module-transformer_rankers.examples.minimal_example">transformer_rankers.examples.minimal_example</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.examples.negative_sampling.html#module-transformer_rankers.examples.negative_sampling">transformer_rankers.examples.negative_sampling</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.examples.pairwise_bert_ranker.html#module-transformer_rankers.examples.pairwise_bert_ranker">transformer_rankers.examples.pairwise_bert_ranker</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.examples.pointwise_bert_ranker.html#module-transformer_rankers.examples.pointwise_bert_ranker">transformer_rankers.examples.pointwise_bert_ranker</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.examples.t5_ranker.html#module-transformer_rankers.examples.t5_ranker">transformer_rankers.examples.t5_ranker</a>
 </li>
         <li><a href="_autosummary/transformer_rankers.models.html#module-transformer_rankers.models">transformer_rankers.models</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.losses.html#module-transformer_rankers.models.losses">transformer_rankers.models.losses</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.html#module-transformer_rankers.models.losses.label_smoothing">transformer_rankers.models.losses.label_smoothing</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.html#module-transformer_rankers.models.pairwise_bert">transformer_rankers.models.pairwise_bert</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.html#module-transformer_rankers.models.pointwise_bert">transformer_rankers.models.pointwise_bert</a>
 </li>
         <li><a href="_autosummary/transformer_rankers.negative_samplers.html#module-transformer_rankers.negative_samplers">transformer_rankers.negative_samplers</a>
 </li>
         <li><a href="_autosummary/transformer_rankers.negative_samplers.negative_sampling.html#module-transformer_rankers.negative_samplers.negative_sampling">transformer_rankers.negative_samplers.negative_sampling</a>
 </li>
         <li><a href="_autosummary/transformer_rankers.scripts.html#module-transformer_rankers.scripts">transformer_rankers.scripts</a>
-</li>
-        <li><a href="_autosummary/transformer_rankers.scripts.aggregate_ensemble_files.html#module-transformer_rankers.scripts.aggregate_ensemble_files">transformer_rankers.scripts.aggregate_ensemble_files</a>
-</li>
-        <li><a href="_autosummary/transformer_rankers.scripts.analyze_uncertainty.html#module-transformer_rankers.scripts.analyze_uncertainty">transformer_rankers.scripts.analyze_uncertainty</a>
-</li>
-        <li><a href="_autosummary/transformer_rankers.scripts.preprocess_cqr_data.html#module-transformer_rankers.scripts.preprocess_cqr_data">transformer_rankers.scripts.preprocess_cqr_data</a>
-</li>
-        <li><a href="_autosummary/transformer_rankers.scripts.preprocess_pr_datasets.html#module-transformer_rankers.scripts.preprocess_pr_datasets">transformer_rankers.scripts.preprocess_pr_datasets</a>
-</li>
-        <li><a href="_autosummary/transformer_rankers.scripts.preprocess_sqr_datasets.html#module-transformer_rankers.scripts.preprocess_sqr_datasets">transformer_rankers.scripts.preprocess_sqr_datasets</a>
-</li>
-        <li><a href="_autosummary/transformer_rankers.scripts.preprocess_ubuntu_dstc8.html#module-transformer_rankers.scripts.preprocess_ubuntu_dstc8">transformer_rankers.scripts.preprocess_ubuntu_dstc8</a>
 </li>
         <li><a href="_autosummary/transformer_rankers.scripts.select_ns_examples.html#module-transformer_rankers.scripts.select_ns_examples">transformer_rankers.scripts.select_ns_examples</a>
 </li>
@@ -513,28 +866,124 @@
 </li>
       </ul></li>
   </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.modules">modules() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.modules">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.modules">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.modules">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.datasets.processors.msdialog_processor.html#transformer_rankers.datasets.processors.msdialog_processor">msdialog_processor() (in module transformer_rankers.datasets.processors)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="N">N</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.named_buffers">named_buffers() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.named_buffers">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.named_buffers">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.named_buffers">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.named_children">named_children() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.named_children">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.named_children">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.named_children">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.named_modules">named_modules() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.named_modules">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.named_modules">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.named_modules">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.named_parameters">named_parameters() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.named_parameters">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.named_parameters">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.named_parameters">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.num_parameters">num_parameters() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.num_parameters">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
 </tr></table>
 
 <h2 id="P">P</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.parameters">parameters() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.parameters">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.parameters">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.parameters">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
       <li><a href="_autosummary/transformer_rankers.trainers.transformer_trainer.TransformerTrainer.html#transformer_rankers.trainers.transformer_trainer.TransformerTrainer.predict">predict() (transformer_rankers.trainers.transformer_trainer.TransformerTrainer method)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="_autosummary/transformer_rankers.trainers.transformer_trainer.TransformerTrainer.html#transformer_rankers.trainers.transformer_trainer.TransformerTrainer.predict_with_uncertainty">predict_with_uncertainty() (transformer_rankers.trainers.transformer_trainer.TransformerTrainer method)</a>
 </li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.prepare_inputs_for_generation">prepare_inputs_for_generation() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.prepare_inputs_for_generation">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.prune_heads">prune_heads() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.prune_heads">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
   </ul></td>
 </tr></table>
 
 <h2 id="Q">Q</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.datasets.processors.qqp_processor.html#transformer_rankers.datasets.processors.qqp_processor">qqp_processor() (in module transformer_rankers.datasets.processors)</a>
+</li>
       <li><a href="_autosummary/transformer_rankers.datasets.dataset.QueryDocumentDataLoader.html#transformer_rankers.datasets.dataset.QueryDocumentDataLoader">QueryDocumentDataLoader (class in transformer_rankers.datasets.dataset)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="_autosummary/transformer_rankers.datasets.dataset.QueryDocumentDataset.html#transformer_rankers.datasets.dataset.QueryDocumentDataset">QueryDocumentDataset (class in transformer_rankers.datasets.dataset)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.datasets.dataset.QueryPosDocNegDocDataLoader.html#transformer_rankers.datasets.dataset.QueryPosDocNegDocDataLoader">QueryPosDocNegDocDataLoader (class in transformer_rankers.datasets.dataset)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.datasets.dataset.QueryPosDocNegDocDataset.html#transformer_rankers.datasets.dataset.QueryPosDocNegDocDataset">QueryPosDocNegDocDataset (class in transformer_rankers.datasets.dataset)</a>
 </li>
   </ul></td>
 </tr></table>
@@ -548,14 +997,90 @@
 </li>
       <li><a href="_autosummary/transformer_rankers.eval.evaluation.recall_at_with_k_candidates.html#transformer_rankers.eval.evaluation.recall_at_with_k_candidates">recall_at_with_k_candidates() (in module transformer_rankers.eval.evaluation)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="_autosummary/transformer_rankers.examples.crr_bert_cross_task_cross_ns.run_experiment.html#transformer_rankers.examples.crr_bert_cross_task_cross_ns.run_experiment">run_experiment() (in module transformer_rankers.examples.crr_bert_cross_task_cross_ns)</a>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.register_backward_hook">register_backward_hook() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
 
       <ul>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_bert_ranker_example.run_experiment.html#transformer_rankers.examples.crr_bert_ranker_example.run_experiment">(in module transformer_rankers.examples.crr_bert_ranker_example)</a>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.register_backward_hook">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
 </li>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_T5_ranker_example.run_experiment.html#transformer_rankers.examples.crr_T5_ranker_example.run_experiment">(in module transformer_rankers.examples.crr_T5_ranker_example)</a>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.register_backward_hook">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.register_backward_hook">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.register_buffer">register_buffer() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.register_buffer">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.register_buffer">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.register_buffer">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.register_forward_hook">register_forward_hook() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.register_forward_hook">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.register_forward_hook">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.register_forward_hook">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.register_forward_pre_hook">register_forward_pre_hook() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.register_forward_pre_hook">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.register_forward_pre_hook">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.register_forward_pre_hook">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.register_parameter">register_parameter() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.register_parameter">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.register_parameter">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.register_parameter">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.requires_grad_">requires_grad_() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.requires_grad_">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.requires_grad_">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.requires_grad_">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.reset_memory_hooks_state">reset_memory_hooks_state() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.reset_memory_hooks_state">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.resize_token_embeddings">resize_token_embeddings() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.resize_token_embeddings">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.examples.analyze_ws.run_experiment.html#transformer_rankers.examples.analyze_ws.run_experiment">run_experiment() (in module transformer_rankers.examples.analyze_ws)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.run_experiment.html#transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.run_experiment">(in module transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.examples.pairwise_bert_ranker.run_experiment.html#transformer_rankers.examples.pairwise_bert_ranker.run_experiment">(in module transformer_rankers.examples.pairwise_bert_ranker)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.examples.pointwise_bert_ranker.run_experiment.html#transformer_rankers.examples.pointwise_bert_ranker.run_experiment">(in module transformer_rankers.examples.pointwise_bert_ranker)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.examples.t5_ranker.run_experiment.html#transformer_rankers.examples.t5_ranker.run_experiment">(in module transformer_rankers.examples.t5_ranker)</a>
 </li>
       </ul></li>
   </ul></td>
@@ -572,22 +1097,70 @@
         <li><a href="_autosummary/transformer_rankers.negative_samplers.negative_sampling.SentenceBERTNegativeSampler.html#transformer_rankers.negative_samplers.negative_sampling.SentenceBERTNegativeSampler.sample">(transformer_rankers.negative_samplers.negative_sampling.SentenceBERTNegativeSampler method)</a>
 </li>
       </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.save_pretrained">save_pretrained() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.save_pretrained">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.datasets.downloader.save_response_content.html#transformer_rankers.datasets.downloader.save_response_content">save_response_content() (in module transformer_rankers.datasets.downloader)</a>
+</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="_autosummary/transformer_rankers.negative_samplers.negative_sampling.SentenceBERTNegativeSampler.html#transformer_rankers.negative_samplers.negative_sampling.SentenceBERTNegativeSampler">SentenceBERTNegativeSampler (class in transformer_rankers.negative_samplers.negative_sampling)</a>
 </li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.set_input_embeddings">set_input_embeddings() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.set_input_embeddings">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.state_dict">state_dict() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.state_dict">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.state_dict">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.state_dict">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
   </ul></td>
 </tr></table>
 
 <h2 id="T">T</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="_autosummary/transformer_rankers.datasets.dataset.T2TDataCollator.html#transformer_rankers.datasets.dataset.T2TDataCollator">T2TDataCollator (class in transformer_rankers.datasets.dataset)</a>
-</li>
       <li><a href="_autosummary/transformer_rankers.trainers.transformer_trainer.TransformerTrainer.html#transformer_rankers.trainers.transformer_trainer.TransformerTrainer.test">test() (transformer_rankers.trainers.transformer_trainer.TransformerTrainer method)</a>
 </li>
       <li><a href="_autosummary/transformer_rankers.trainers.transformer_trainer.TransformerTrainer.html#transformer_rankers.trainers.transformer_trainer.TransformerTrainer.test_with_dropout">test_with_dropout() (transformer_rankers.trainers.transformer_trainer.TransformerTrainer method)</a>
 </li>
+      <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.tie_weights">tie_weights() (transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.tie_weights">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.to">to() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.to">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.to">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.to">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.train">train() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.train">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.train">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.train">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
       <li><a href="_autosummary/transformer_rankers.datasets.preprocess_crr.transform_dstc8_to_tsv.html#transformer_rankers.datasets.preprocess_crr.transform_dstc8_to_tsv">transform_dstc8_to_tsv() (in module transformer_rankers.datasets.preprocess_crr)</a>
 </li>
       <li><a href="_autosummary/transformer_rankers.datasets.preprocess_sqr.transform_linkso_to_duplicates_dfs.html#transformer_rankers.datasets.preprocess_sqr.transform_linkso_to_duplicates_dfs">transform_linkso_to_duplicates_dfs() (in module transformer_rankers.datasets.preprocess_sqr)</a>
@@ -618,6 +1191,13 @@
 </li>
       </ul></li>
       <li>
+    transformer_rankers.datasets.downloader
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.datasets.downloader.html#module-transformer_rankers.datasets.downloader">module</a>
+</li>
+      </ul></li>
+      <li>
     transformer_rankers.datasets.preprocess_crr
 
       <ul>
@@ -636,6 +1216,13 @@
 
       <ul>
         <li><a href="_autosummary/transformer_rankers.datasets.preprocess_sqr.html#module-transformer_rankers.datasets.preprocess_sqr">module</a>
+</li>
+      </ul></li>
+      <li>
+    transformer_rankers.datasets.processors
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.datasets.processors.html#module-transformer_rankers.datasets.processors">module</a>
 </li>
       </ul></li>
       <li>
@@ -667,40 +1254,68 @@
 </li>
       </ul></li>
       <li>
-    transformer_rankers.examples.crr_bert_cross_task_cross_ns
+    transformer_rankers.examples.aggregate_sacred_result_logs
 
       <ul>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_bert_cross_task_cross_ns.html#module-transformer_rankers.examples.crr_bert_cross_task_cross_ns">module</a>
+        <li><a href="_autosummary/transformer_rankers.examples.aggregate_sacred_result_logs.html#module-transformer_rankers.examples.aggregate_sacred_result_logs">module</a>
 </li>
       </ul></li>
       <li>
-    transformer_rankers.examples.crr_bert_ranker_example
+    transformer_rankers.examples.analyze_ws
 
       <ul>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_bert_ranker_example.html#module-transformer_rankers.examples.crr_bert_ranker_example">module</a>
+        <li><a href="_autosummary/transformer_rankers.examples.analyze_ws.html#module-transformer_rankers.examples.analyze_ws">module</a>
 </li>
       </ul></li>
       <li>
-    transformer_rankers.examples.crr_results_analyses_example
+    transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr
 
       <ul>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_results_analyses_example.html#module-transformer_rankers.examples.crr_results_analyses_example">module</a>
-</li>
-      </ul></li>
-      <li>
-    transformer_rankers.examples.crr_T5_ranker_example
-
-      <ul>
-        <li><a href="_autosummary/transformer_rankers.examples.crr_T5_ranker_example.html#module-transformer_rankers.examples.crr_T5_ranker_example">module</a>
+        <li><a href="_autosummary/transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr.html#module-transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr">module</a>
 </li>
       </ul></li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
       <li>
-    transformer_rankers.examples.negative_sampling_example
+    transformer_rankers.examples.download_task_data
 
       <ul>
-        <li><a href="_autosummary/transformer_rankers.examples.negative_sampling_example.html#module-transformer_rankers.examples.negative_sampling_example">module</a>
+        <li><a href="_autosummary/transformer_rankers.examples.download_task_data.html#module-transformer_rankers.examples.download_task_data">module</a>
+</li>
+      </ul></li>
+      <li>
+    transformer_rankers.examples.minimal_example
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.examples.minimal_example.html#module-transformer_rankers.examples.minimal_example">module</a>
+</li>
+      </ul></li>
+      <li>
+    transformer_rankers.examples.negative_sampling
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.examples.negative_sampling.html#module-transformer_rankers.examples.negative_sampling">module</a>
+</li>
+      </ul></li>
+      <li>
+    transformer_rankers.examples.pairwise_bert_ranker
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.examples.pairwise_bert_ranker.html#module-transformer_rankers.examples.pairwise_bert_ranker">module</a>
+</li>
+      </ul></li>
+      <li>
+    transformer_rankers.examples.pointwise_bert_ranker
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.examples.pointwise_bert_ranker.html#module-transformer_rankers.examples.pointwise_bert_ranker">module</a>
+</li>
+      </ul></li>
+      <li>
+    transformer_rankers.examples.t5_ranker
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.examples.t5_ranker.html#module-transformer_rankers.examples.t5_ranker">module</a>
 </li>
       </ul></li>
       <li>
@@ -708,6 +1323,34 @@
 
       <ul>
         <li><a href="_autosummary/transformer_rankers.models.html#module-transformer_rankers.models">module</a>
+</li>
+      </ul></li>
+      <li>
+    transformer_rankers.models.losses
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.html#module-transformer_rankers.models.losses">module</a>
+</li>
+      </ul></li>
+      <li>
+    transformer_rankers.models.losses.label_smoothing
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.html#module-transformer_rankers.models.losses.label_smoothing">module</a>
+</li>
+      </ul></li>
+      <li>
+    transformer_rankers.models.pairwise_bert
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.html#module-transformer_rankers.models.pairwise_bert">module</a>
+</li>
+      </ul></li>
+      <li>
+    transformer_rankers.models.pointwise_bert
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.html#module-transformer_rankers.models.pointwise_bert">module</a>
 </li>
       </ul></li>
       <li>
@@ -729,48 +1372,6 @@
 
       <ul>
         <li><a href="_autosummary/transformer_rankers.scripts.html#module-transformer_rankers.scripts">module</a>
-</li>
-      </ul></li>
-      <li>
-    transformer_rankers.scripts.aggregate_ensemble_files
-
-      <ul>
-        <li><a href="_autosummary/transformer_rankers.scripts.aggregate_ensemble_files.html#module-transformer_rankers.scripts.aggregate_ensemble_files">module</a>
-</li>
-      </ul></li>
-      <li>
-    transformer_rankers.scripts.analyze_uncertainty
-
-      <ul>
-        <li><a href="_autosummary/transformer_rankers.scripts.analyze_uncertainty.html#module-transformer_rankers.scripts.analyze_uncertainty">module</a>
-</li>
-      </ul></li>
-      <li>
-    transformer_rankers.scripts.preprocess_cqr_data
-
-      <ul>
-        <li><a href="_autosummary/transformer_rankers.scripts.preprocess_cqr_data.html#module-transformer_rankers.scripts.preprocess_cqr_data">module</a>
-</li>
-      </ul></li>
-      <li>
-    transformer_rankers.scripts.preprocess_pr_datasets
-
-      <ul>
-        <li><a href="_autosummary/transformer_rankers.scripts.preprocess_pr_datasets.html#module-transformer_rankers.scripts.preprocess_pr_datasets">module</a>
-</li>
-      </ul></li>
-      <li>
-    transformer_rankers.scripts.preprocess_sqr_datasets
-
-      <ul>
-        <li><a href="_autosummary/transformer_rankers.scripts.preprocess_sqr_datasets.html#module-transformer_rankers.scripts.preprocess_sqr_datasets">module</a>
-</li>
-      </ul></li>
-      <li>
-    transformer_rankers.scripts.preprocess_ubuntu_dstc8
-
-      <ul>
-        <li><a href="_autosummary/transformer_rankers.scripts.preprocess_ubuntu_dstc8.html#module-transformer_rankers.scripts.preprocess_ubuntu_dstc8">module</a>
 </li>
       </ul></li>
       <li>
@@ -817,6 +1418,58 @@
       </ul></li>
       <li><a href="_autosummary/transformer_rankers.trainers.transformer_trainer.TransformerTrainer.html#transformer_rankers.trainers.transformer_trainer.TransformerTrainer">TransformerTrainer (class in transformer_rankers.trainers.transformer_trainer)</a>
 </li>
+      <li><a href="_autosummary/transformer_rankers.datasets.processors.trec2020pr_processor.html#transformer_rankers.datasets.processors.trec2020pr_processor">trec2020pr_processor() (in module transformer_rankers.datasets.processors)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.type">type() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.type">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.type">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.type">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="U">U</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.datasets.processors.ubuntu_dstc8_processor.html#transformer_rankers.datasets.processors.ubuntu_dstc8_processor">ubuntu_dstc8_processor() (in module transformer_rankers.datasets.processors)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="W">W</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy">WeaklySupervisedLabelSmoothingCrossEntropy (class in transformer_rankers.models.losses.label_smoothing)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#id0">WeaklySupervisedLabelSmoothingCrossEntropy.to() (in module transformer_rankers.models.losses.label_smoothing)</a>, <a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#id1">[1]</a>, <a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#id2">[2]</a>, <a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#id3">[3]</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataLoader.html#transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataLoader">WeaklySupervisedQueryDocumentDataLoader (class in transformer_rankers.datasets.dataset)</a>
+</li>
+      <li><a href="_autosummary/transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataset.html#transformer_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataset">WeaklySupervisedQueryDocumentDataset (class in transformer_rankers.datasets.dataset)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="Z">Z</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy.zero_grad">zero_grad() (transformer_rankers.models.losses.label_smoothing.LabelSmoothingCrossEntropy method)</a>
+
+      <ul>
+        <li><a href="_autosummary/transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.html#transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy.zero_grad">(transformer_rankers.models.losses.label_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.html#transformer_rankers.models.pairwise_bert.BertForPairwiseLearning.zero_grad">(transformer_rankers.models.pairwise_bert.BertForPairwiseLearning method)</a>
+</li>
+        <li><a href="_autosummary/transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.html#transformer_rankers.models.pointwise_bert.BertForPointwiseLearning.zero_grad">(transformer_rankers.models.pointwise_bert.BertForPointwiseLearning method)</a>
+</li>
+      </ul></li>
   </ul></td>
 </tr></table>
 
