@@ -1,0 +1,26 @@
+transformer\_rankers.datasets.dataset.QueryPosDocNegDocDataLoader
+=================================================================
+
+.. currentmodule:: transformer_rankers.datasets.dataset
+
+.. autoclass:: QueryPosDocNegDocDataLoader
+   :members:
+   :show-inheritance:
+   :inherited-members:   
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~QueryPosDocNegDocDataLoader.__init__
+      ~QueryPosDocNegDocDataLoader.get_pytorch_dataloaders
+   
+   
+
+   
+   
+   

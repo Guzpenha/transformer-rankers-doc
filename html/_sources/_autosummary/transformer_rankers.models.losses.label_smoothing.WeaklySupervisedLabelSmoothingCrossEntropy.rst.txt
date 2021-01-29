@@ -1,0 +1,63 @@
+transformer\_rankers.models.losses.label\_smoothing.WeaklySupervisedLabelSmoothingCrossEntropy
+==============================================================================================
+
+.. currentmodule:: transformer_rankers.models.losses.label_smoothing
+
+.. autoclass:: WeaklySupervisedLabelSmoothingCrossEntropy
+   :members:
+   :show-inheritance:
+   :inherited-members:   
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.__init__
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.add_module
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.apply
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.bfloat16
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.buffers
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.children
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.cpu
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.cuda
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.double
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.eval
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.extra_repr
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.float
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.forward
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.half
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.load_state_dict
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.modules
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.named_buffers
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.named_children
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.named_modules
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.named_parameters
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.parameters
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.register_backward_hook
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.register_buffer
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.register_forward_hook
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.register_forward_pre_hook
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.register_parameter
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.requires_grad_
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.share_memory
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.state_dict
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.to
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.train
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.type
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.zero_grad
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~WeaklySupervisedLabelSmoothingCrossEntropy.dump_patches
+   
+   

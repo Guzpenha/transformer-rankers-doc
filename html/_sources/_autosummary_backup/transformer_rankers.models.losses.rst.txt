@@ -1,0 +1,32 @@
+transformer\_rankers.models.losses
+==================================
+
+.. automodule:: transformer_rankers.models.losses
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :template: custom-module-template.rst
+   :recursive:
+
+   transformer_rankers.models.losses.label_smoothing
+

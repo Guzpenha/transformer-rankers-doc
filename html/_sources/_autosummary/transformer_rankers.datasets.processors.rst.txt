@@ -1,0 +1,36 @@
+transformer\_rankers.datasets.processors
+========================================
+
+.. automodule:: transformer_rankers.datasets.processors
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      clariq_processor
+      linkso_processor
+      mantis_processor
+      msdialog_processor
+      qqp_processor
+      trec2020pr_processor
+      ubuntu_dstc8_processor
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

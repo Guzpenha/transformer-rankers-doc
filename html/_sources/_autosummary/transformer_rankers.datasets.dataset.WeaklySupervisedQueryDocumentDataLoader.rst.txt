@@ -1,0 +1,26 @@
+transformer\_rankers.datasets.dataset.WeaklySupervisedQueryDocumentDataLoader
+=============================================================================
+
+.. currentmodule:: transformer_rankers.datasets.dataset
+
+.. autoclass:: WeaklySupervisedQueryDocumentDataLoader
+   :members:
+   :show-inheritance:
+   :inherited-members:   
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~WeaklySupervisedQueryDocumentDataLoader.__init__
+      ~WeaklySupervisedQueryDocumentDataLoader.get_pytorch_dataloaders
+   
+   
+
+   
+   
+   

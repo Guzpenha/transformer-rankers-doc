@@ -1,0 +1,6 @@
+transformer\_rankers.datasets.downloader.save\_response\_content
+================================================================
+
+.. currentmodule:: transformer_rankers.datasets.downloader
+
+.. autofunction:: save_response_content

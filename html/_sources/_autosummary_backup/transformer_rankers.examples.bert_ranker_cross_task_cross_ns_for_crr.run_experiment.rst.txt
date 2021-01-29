@@ -1,0 +1,6 @@
+transformer\_rankers.examples.bert\_ranker\_cross\_task\_cross\_ns\_for\_crr.run\_experiment
+============================================================================================
+
+.. currentmodule:: transformer_rankers.examples.bert_ranker_cross_task_cross_ns_for_crr
+
+.. autofunction:: run_experiment

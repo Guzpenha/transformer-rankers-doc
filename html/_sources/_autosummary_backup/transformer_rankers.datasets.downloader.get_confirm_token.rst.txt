@@ -1,0 +1,6 @@
+transformer\_rankers.datasets.downloader.get\_confirm\_token
+============================================================
+
+.. currentmodule:: transformer_rankers.datasets.downloader
+
+.. autofunction:: get_confirm_token

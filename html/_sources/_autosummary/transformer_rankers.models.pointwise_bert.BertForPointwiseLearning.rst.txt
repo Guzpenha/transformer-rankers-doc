@@ -1,0 +1,90 @@
+transformer\_rankers.models.pointwise\_bert.BertForPointwiseLearning
+====================================================================
+
+.. currentmodule:: transformer_rankers.models.pointwise_bert
+
+.. autoclass:: BertForPointwiseLearning
+   :members:
+   :show-inheritance:
+   :inherited-members:   
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~BertForPointwiseLearning.__init__
+      ~BertForPointwiseLearning.add_memory_hooks
+      ~BertForPointwiseLearning.add_module
+      ~BertForPointwiseLearning.adjust_logits_during_generation
+      ~BertForPointwiseLearning.apply
+      ~BertForPointwiseLearning.bfloat16
+      ~BertForPointwiseLearning.buffers
+      ~BertForPointwiseLearning.children
+      ~BertForPointwiseLearning.cpu
+      ~BertForPointwiseLearning.cuda
+      ~BertForPointwiseLearning.double
+      ~BertForPointwiseLearning.enforce_repetition_penalty_
+      ~BertForPointwiseLearning.eval
+      ~BertForPointwiseLearning.extra_repr
+      ~BertForPointwiseLearning.float
+      ~BertForPointwiseLearning.forward
+      ~BertForPointwiseLearning.from_pretrained
+      ~BertForPointwiseLearning.generate
+      ~BertForPointwiseLearning.get_extended_attention_mask
+      ~BertForPointwiseLearning.get_head_mask
+      ~BertForPointwiseLearning.get_input_embeddings
+      ~BertForPointwiseLearning.get_output_embeddings
+      ~BertForPointwiseLearning.half
+      ~BertForPointwiseLearning.init_weights
+      ~BertForPointwiseLearning.invert_attention_mask
+      ~BertForPointwiseLearning.load_state_dict
+      ~BertForPointwiseLearning.load_tf_weights
+      ~BertForPointwiseLearning.modules
+      ~BertForPointwiseLearning.named_buffers
+      ~BertForPointwiseLearning.named_children
+      ~BertForPointwiseLearning.named_modules
+      ~BertForPointwiseLearning.named_parameters
+      ~BertForPointwiseLearning.num_parameters
+      ~BertForPointwiseLearning.parameters
+      ~BertForPointwiseLearning.postprocess_next_token_scores
+      ~BertForPointwiseLearning.prepare_inputs_for_generation
+      ~BertForPointwiseLearning.prune_heads
+      ~BertForPointwiseLearning.register_backward_hook
+      ~BertForPointwiseLearning.register_buffer
+      ~BertForPointwiseLearning.register_forward_hook
+      ~BertForPointwiseLearning.register_forward_pre_hook
+      ~BertForPointwiseLearning.register_parameter
+      ~BertForPointwiseLearning.requires_grad_
+      ~BertForPointwiseLearning.reset_memory_hooks_state
+      ~BertForPointwiseLearning.resize_token_embeddings
+      ~BertForPointwiseLearning.save_pretrained
+      ~BertForPointwiseLearning.set_input_embeddings
+      ~BertForPointwiseLearning.share_memory
+      ~BertForPointwiseLearning.state_dict
+      ~BertForPointwiseLearning.tie_weights
+      ~BertForPointwiseLearning.to
+      ~BertForPointwiseLearning.train
+      ~BertForPointwiseLearning.type
+      ~BertForPointwiseLearning.zero_grad
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BertForPointwiseLearning.authorized_missing_keys
+      ~BertForPointwiseLearning.base_model
+      ~BertForPointwiseLearning.base_model_prefix
+      ~BertForPointwiseLearning.device
+      ~BertForPointwiseLearning.dtype
+      ~BertForPointwiseLearning.dummy_inputs
+      ~BertForPointwiseLearning.dump_patches
+   
+   

@@ -1,0 +1,6 @@
+transformer\_rankers.examples.minimal\_example.main
+===================================================
+
+.. currentmodule:: transformer_rankers.examples.minimal_example
+
+.. autofunction:: main

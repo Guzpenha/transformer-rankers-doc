@@ -1,0 +1,6 @@
+transformer\_rankers.examples.pairwise\_bert\_ranker.main
+=========================================================
+
+.. currentmodule:: transformer_rankers.examples.pairwise_bert_ranker
+
+.. autofunction:: main

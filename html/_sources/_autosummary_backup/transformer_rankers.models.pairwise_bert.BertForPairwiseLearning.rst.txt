@@ -1,0 +1,90 @@
+transformer\_rankers.models.pairwise\_bert.BertForPairwiseLearning
+==================================================================
+
+.. currentmodule:: transformer_rankers.models.pairwise_bert
+
+.. autoclass:: BertForPairwiseLearning
+   :members:
+   :show-inheritance:
+   :inherited-members:   
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~BertForPairwiseLearning.__init__
+      ~BertForPairwiseLearning.add_memory_hooks
+      ~BertForPairwiseLearning.add_module
+      ~BertForPairwiseLearning.adjust_logits_during_generation
+      ~BertForPairwiseLearning.apply
+      ~BertForPairwiseLearning.bfloat16
+      ~BertForPairwiseLearning.buffers
+      ~BertForPairwiseLearning.children
+      ~BertForPairwiseLearning.cpu
+      ~BertForPairwiseLearning.cuda
+      ~BertForPairwiseLearning.double
+      ~BertForPairwiseLearning.enforce_repetition_penalty_
+      ~BertForPairwiseLearning.eval
+      ~BertForPairwiseLearning.extra_repr
+      ~BertForPairwiseLearning.float
+      ~BertForPairwiseLearning.forward
+      ~BertForPairwiseLearning.from_pretrained
+      ~BertForPairwiseLearning.generate
+      ~BertForPairwiseLearning.get_extended_attention_mask
+      ~BertForPairwiseLearning.get_head_mask
+      ~BertForPairwiseLearning.get_input_embeddings
+      ~BertForPairwiseLearning.get_output_embeddings
+      ~BertForPairwiseLearning.half
+      ~BertForPairwiseLearning.init_weights
+      ~BertForPairwiseLearning.invert_attention_mask
+      ~BertForPairwiseLearning.load_state_dict
+      ~BertForPairwiseLearning.load_tf_weights
+      ~BertForPairwiseLearning.modules
+      ~BertForPairwiseLearning.named_buffers
+      ~BertForPairwiseLearning.named_children
+      ~BertForPairwiseLearning.named_modules
+      ~BertForPairwiseLearning.named_parameters
+      ~BertForPairwiseLearning.num_parameters
+      ~BertForPairwiseLearning.parameters
+      ~BertForPairwiseLearning.postprocess_next_token_scores
+      ~BertForPairwiseLearning.prepare_inputs_for_generation
+      ~BertForPairwiseLearning.prune_heads
+      ~BertForPairwiseLearning.register_backward_hook
+      ~BertForPairwiseLearning.register_buffer
+      ~BertForPairwiseLearning.register_forward_hook
+      ~BertForPairwiseLearning.register_forward_pre_hook
+      ~BertForPairwiseLearning.register_parameter
+      ~BertForPairwiseLearning.requires_grad_
+      ~BertForPairwiseLearning.reset_memory_hooks_state
+      ~BertForPairwiseLearning.resize_token_embeddings
+      ~BertForPairwiseLearning.save_pretrained
+      ~BertForPairwiseLearning.set_input_embeddings
+      ~BertForPairwiseLearning.share_memory
+      ~BertForPairwiseLearning.state_dict
+      ~BertForPairwiseLearning.tie_weights
+      ~BertForPairwiseLearning.to
+      ~BertForPairwiseLearning.train
+      ~BertForPairwiseLearning.type
+      ~BertForPairwiseLearning.zero_grad
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BertForPairwiseLearning.authorized_missing_keys
+      ~BertForPairwiseLearning.base_model
+      ~BertForPairwiseLearning.base_model_prefix
+      ~BertForPairwiseLearning.device
+      ~BertForPairwiseLearning.dtype
+      ~BertForPairwiseLearning.dummy_inputs
+      ~BertForPairwiseLearning.dump_patches
+   
+   

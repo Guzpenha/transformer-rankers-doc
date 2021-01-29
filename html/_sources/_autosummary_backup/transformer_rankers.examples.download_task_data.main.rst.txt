@@ -1,0 +1,6 @@
+transformer\_rankers.examples.download\_task\_data.main
+=======================================================
+
+.. currentmodule:: transformer_rankers.examples.download_task_data
+
+.. autofunction:: main

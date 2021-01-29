@@ -1,0 +1,6 @@
+transformer\_rankers.examples.negative\_sampling.main
+=====================================================
+
+.. currentmodule:: transformer_rankers.examples.negative_sampling
+
+.. autofunction:: main

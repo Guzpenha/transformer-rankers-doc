@@ -1,0 +1,30 @@
+transformer\_rankers.examples.download\_task\_data
+==================================================
+
+.. automodule:: transformer_rankers.examples.download_task_data
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      main
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

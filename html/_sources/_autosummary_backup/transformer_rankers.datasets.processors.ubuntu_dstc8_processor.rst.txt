@@ -1,0 +1,6 @@
+transformer\_rankers.datasets.processors.ubuntu\_dstc8\_processor
+=================================================================
+
+.. currentmodule:: transformer_rankers.datasets.processors
+
+.. autofunction:: ubuntu_dstc8_processor

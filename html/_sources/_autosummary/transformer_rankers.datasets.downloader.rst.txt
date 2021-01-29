@@ -1,0 +1,40 @@
+transformer\_rankers.datasets.downloader
+========================================
+
+.. automodule:: transformer_rankers.datasets.downloader
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      download_file_from_google_drive
+      get_confirm_token
+      save_response_content
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst      
+   
+      DataDownloader
+   
+   
+
+   
+   
+   
+
+
+

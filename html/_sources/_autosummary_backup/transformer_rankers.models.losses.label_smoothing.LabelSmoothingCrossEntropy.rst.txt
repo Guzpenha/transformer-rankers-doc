@@ -1,0 +1,63 @@
+transformer\_rankers.models.losses.label\_smoothing.LabelSmoothingCrossEntropy
+==============================================================================
+
+.. currentmodule:: transformer_rankers.models.losses.label_smoothing
+
+.. autoclass:: LabelSmoothingCrossEntropy
+   :members:
+   :show-inheritance:
+   :inherited-members:   
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~LabelSmoothingCrossEntropy.__init__
+      ~LabelSmoothingCrossEntropy.add_module
+      ~LabelSmoothingCrossEntropy.apply
+      ~LabelSmoothingCrossEntropy.bfloat16
+      ~LabelSmoothingCrossEntropy.buffers
+      ~LabelSmoothingCrossEntropy.children
+      ~LabelSmoothingCrossEntropy.cpu
+      ~LabelSmoothingCrossEntropy.cuda
+      ~LabelSmoothingCrossEntropy.double
+      ~LabelSmoothingCrossEntropy.eval
+      ~LabelSmoothingCrossEntropy.extra_repr
+      ~LabelSmoothingCrossEntropy.float
+      ~LabelSmoothingCrossEntropy.forward
+      ~LabelSmoothingCrossEntropy.half
+      ~LabelSmoothingCrossEntropy.load_state_dict
+      ~LabelSmoothingCrossEntropy.modules
+      ~LabelSmoothingCrossEntropy.named_buffers
+      ~LabelSmoothingCrossEntropy.named_children
+      ~LabelSmoothingCrossEntropy.named_modules
+      ~LabelSmoothingCrossEntropy.named_parameters
+      ~LabelSmoothingCrossEntropy.parameters
+      ~LabelSmoothingCrossEntropy.register_backward_hook
+      ~LabelSmoothingCrossEntropy.register_buffer
+      ~LabelSmoothingCrossEntropy.register_forward_hook
+      ~LabelSmoothingCrossEntropy.register_forward_pre_hook
+      ~LabelSmoothingCrossEntropy.register_parameter
+      ~LabelSmoothingCrossEntropy.requires_grad_
+      ~LabelSmoothingCrossEntropy.share_memory
+      ~LabelSmoothingCrossEntropy.state_dict
+      ~LabelSmoothingCrossEntropy.to
+      ~LabelSmoothingCrossEntropy.train
+      ~LabelSmoothingCrossEntropy.type
+      ~LabelSmoothingCrossEntropy.zero_grad
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~LabelSmoothingCrossEntropy.dump_patches
+   
+   

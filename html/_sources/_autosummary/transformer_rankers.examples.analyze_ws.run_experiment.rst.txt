@@ -1,0 +1,6 @@
+transformer\_rankers.examples.analyze\_ws.run\_experiment
+=========================================================
+
+.. currentmodule:: transformer_rankers.examples.analyze_ws
+
+.. autofunction:: run_experiment

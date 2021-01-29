@@ -1,0 +1,31 @@
+transformer\_rankers.models.losses.label\_smoothing
+===================================================
+
+.. automodule:: transformer_rankers.models.losses.label_smoothing
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree:
+      :template: custom-class-template.rst      
+   
+      LabelSmoothingCrossEntropy
+   
+   
+
+   
+   
+   
+
+
+

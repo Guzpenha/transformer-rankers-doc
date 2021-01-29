@@ -1,0 +1,30 @@
+transformer\_rankers.examples.aggregate\_sacred\_result\_logs
+=============================================================
+
+.. automodule:: transformer_rankers.examples.aggregate_sacred_result_logs
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      main
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

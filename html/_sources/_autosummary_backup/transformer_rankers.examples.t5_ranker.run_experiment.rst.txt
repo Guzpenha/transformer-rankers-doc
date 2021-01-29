@@ -1,0 +1,6 @@
+transformer\_rankers.examples.t5\_ranker.run\_experiment
+========================================================
+
+.. currentmodule:: transformer_rankers.examples.t5_ranker
+
+.. autofunction:: run_experiment

@@ -1,0 +1,6 @@
+transformer\_rankers.examples.t5\_ranker.main
+=============================================
+
+.. currentmodule:: transformer_rankers.examples.t5_ranker
+
+.. autofunction:: main

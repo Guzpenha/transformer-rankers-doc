@@ -1,0 +1,6 @@
+transformer\_rankers.examples.aggregate\_sacred\_result\_logs.main
+==================================================================
+
+.. currentmodule:: transformer_rankers.examples.aggregate_sacred_result_logs
+
+.. autofunction:: main

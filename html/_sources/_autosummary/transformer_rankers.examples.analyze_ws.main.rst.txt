@@ -1,0 +1,6 @@
+transformer\_rankers.examples.analyze\_ws.main
+==============================================
+
+.. currentmodule:: transformer_rankers.examples.analyze_ws
+
+.. autofunction:: main

@@ -1,0 +1,6 @@
+transformer\_rankers.datasets.processors.qqp\_processor
+=======================================================
+
+.. currentmodule:: transformer_rankers.datasets.processors
+
+.. autofunction:: qqp_processor

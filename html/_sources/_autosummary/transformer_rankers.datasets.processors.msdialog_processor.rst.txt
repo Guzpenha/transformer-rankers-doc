@@ -1,0 +1,6 @@
+transformer\_rankers.datasets.processors.msdialog\_processor
+============================================================
+
+.. currentmodule:: transformer_rankers.datasets.processors
+
+.. autofunction:: msdialog_processor

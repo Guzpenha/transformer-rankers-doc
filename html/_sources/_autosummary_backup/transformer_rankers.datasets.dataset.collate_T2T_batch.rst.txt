@@ -1,0 +1,6 @@
+transformer\_rankers.datasets.dataset.collate\_T2T\_batch
+=========================================================
+
+.. currentmodule:: transformer_rankers.datasets.dataset
+
+.. autofunction:: collate_T2T_batch

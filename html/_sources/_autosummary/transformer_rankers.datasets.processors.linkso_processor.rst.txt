@@ -1,0 +1,6 @@
+transformer\_rankers.datasets.processors.linkso\_processor
+==========================================================
+
+.. currentmodule:: transformer_rankers.datasets.processors
+
+.. autofunction:: linkso_processor

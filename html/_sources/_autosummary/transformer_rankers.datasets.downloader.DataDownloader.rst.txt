@@ -1,0 +1,26 @@
+transformer\_rankers.datasets.downloader.DataDownloader
+=======================================================
+
+.. currentmodule:: transformer_rankers.datasets.downloader
+
+.. autoclass:: DataDownloader
+   :members:
+   :show-inheritance:
+   :inherited-members:   
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~DataDownloader.__init__
+      ~DataDownloader.download_and_preprocess
+   
+   
+
+   
+   
+   

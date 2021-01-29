@@ -1,0 +1,31 @@
+transformer\_rankers.examples.t5\_ranker
+========================================
+
+.. automodule:: transformer_rankers.examples.t5_ranker
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree:
+   
+      main
+      run_experiment
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

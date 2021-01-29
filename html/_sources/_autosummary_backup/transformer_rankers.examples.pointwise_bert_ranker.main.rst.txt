@@ -1,0 +1,6 @@
+transformer\_rankers.examples.pointwise\_bert\_ranker.main
+==========================================================
+
+.. currentmodule:: transformer_rankers.examples.pointwise_bert_ranker
+
+.. autofunction:: main

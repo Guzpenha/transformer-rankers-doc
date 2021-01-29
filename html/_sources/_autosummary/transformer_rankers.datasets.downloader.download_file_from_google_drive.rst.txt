@@ -1,0 +1,6 @@
+transformer\_rankers.datasets.downloader.download\_file\_from\_google\_drive
+============================================================================
+
+.. currentmodule:: transformer_rankers.datasets.downloader
+
+.. autofunction:: download_file_from_google_drive
